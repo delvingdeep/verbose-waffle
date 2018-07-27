@@ -60,7 +60,7 @@ while True:
     # csv write
     data = [path, time_ms]
     
-    with open(r'camera_log.txt','a') as wrt:
+    with open(r'camera_log.csv','a') as wrt:
         writer = csv.writer(wrt)
         writer.writerow(data)
     
